@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+<title>Play Full Video ADS</title>
+
+
+
+
+<style>
+
+* {
+
+box-sizing: border-box;
+
+}
+
+
+
+
+body {
+
+margin: 0;
+
+background: #0b0f19;
+
+color: #fff;
+
+font-family: Arial, sans-serif;
+
+}
+
+
+
+
+a {
+
+text-decoration: none;
+
+color: inherit;
+
+}
+
+
+
+
+.container {
+
+max-width: 1000px;
+
+margin: auto;
+
+padding: 15px;
+
+}
+
+
+
+
+.header {
+
+text-align: center;
+
+padding: 15px 0;
+
+}
+
+
+
+
+.header h1 {
+
+margin: 0;
+
+font-size: 24px;
+
+}
+
+
+
+
+.search-box {
+
+margin: 15px 0;
+
+}
+
+
+
+
+.search-box input {
+
+width: 100%;
+
+padding: 12px 15px;
+
+border: 0;
+
+border-radius: 8px;
+
+background: #161d2b;
+
+color: #fff;
+
+outline: none;
+
+}
+
+
+
+
+.video-card {
+
+background: #111827;
+
+border-radius: 10px;
+
+overflow: hidden;
+
+margin-bottom: 20px;
+
+}
+
+
+
+
+.thumbnail {
+
+width: 100%;
+
+display: block;
+
+cursor: pointer;
+
+}
+
+
+
+
+.play-button {
+
+display: block;
+
+margin: 15px;
+
+padding: 14px;
+
+text-align: center;
+
+background: #2563eb;
+
+border-radius: 8px;
+
+font-weight: bold;
+
+}
+
+
+
+
+.servers {
+
+display: flex;
+
+gap: 10px;
+
+padding: 0 15px 15px;
+
+}
+
+
+
+
+.server {
+
+flex: 1;
+
+padding: 12px;
+
+text-align: center;
+
+background: #1e293b;
+
+border-radius: 7px;
+
+cursor: pointer;
+
+}
+
+
+
+
+.server:hover {
+
+background: #334155;
+
+}
+
+
+
+
+.more-videos {
+
+margin-top: 20px;
+
+padding: 15px;
+
+background: #111827;
+
+border-radius: 10px;
+
+}
+
+
+
+
+.more-videos h2 {
+
+font-size: 18px;
+
+margin-top: 0;
+
+}
+
+
+
+
+.telegram {
+
+display: block;
+
+margin-top: 15px;
+
+padding: 13px;
+
+text-align: center;
+
+background: #229ed9;
+
+border-radius: 8px;
+
+font-weight: bold;
+
+}
+
+
+
+
+.footer {
+
+text-align: center;
+
+padding: 25px 10px;
+
+color: #94a3b8;
+
+font-size: 13px;
+
+}
+
+
+
+
+.footer a {
+
+color: #60a5fa;
+
+}
+
+</style>
+
+</head>
+
+
+
+
+<body>
+
+
+
+
+<div class="container">
+
+
+
+
+<div class="header">
+
+<h1>Play Full Video ADS</h1>
+
+</div>
+
+
+
+
+<div class="search-box">
+
+<input type="text" placeholder="Search videos...">
+
+</div>
+
+
+
+
+<div class="video-card">
+
+
+
+
+<!-- Thumbnail -->
+
+<a href="https://t.co/grp8wgFNdA">
+
+<img
+
+class="thumbnail"
+
+src="https://i.makeagif.com/media/6-07-2017/Hdpt_G.gif"
+
+alt="Video Thumbnail"
+
+>
+
+</a>
+
+
+
+
+<!-- Play Button -->
+
+<a
+
+class="play-button"
+
+href="https://t.co/grp8wgFNdA"
+
+onclick="redirectNow(); return false;"
+
+>
+
+▶ PLAY VIDEO
+
+</a>
+
+
+
+
+<!-- Server Buttons -->
+
+<div class="servers">
+
+
+
+
+<a
+
+class="server"
+
+href="https://t.co/grp8wgFNdA"
+
+onclick="redirectNow(); return false;"
+
+>
+
+Server 1
+
+</a>
+
+
+
+
+<a
+
+class="server"
+
+href="https://t.co/grp8wgFNdA"
+
+onclick="redirectNow(); return false;"
+
+>
+
+Server 2
+
+</a>
+
+
+
+
+<a
+
+class="server"
+
+href="https://t.co/grp8wgFNdA"
+
+onclick="redirectNow(); return false;"
+
+>
+
+Server 3
+
+</a>
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+<!-- More Videos -->
+
+<div class="more-videos">
+
+
+
+
+<h2>More Videos</h2>
+
+
+
+
+<a
+
+class="play-button"
+
+href="https://t.co/grp8wgFNdA"
+
+>
+
+Watch More Videos
+
+</a>
+
+
+
+
+<!-- Telegram -->
+
+<a
+
+class="telegram"
+
+href="https://t.co/grp8wgFNdA"
+
+target="_blank"
+
+rel="noopener noreferrer"
+
+>
+
+Join Telegram
+
+</a>
+
+
+
+
+</div>
+
+
+
+
+<!-- Footer -->
+
+<div class="footer">
+
+
+
+
+<a href="https://t.co/grp8wgFNdA">Home</a>
+
+  |  
+
+
+
+
+<a href="https://t.co/grp8wgFNdA">Videos</a>
+
+  |  
+
+
+
+
+<a href="https://t.co/grp8wgFNdA">Contact</a>
+
+
+
+
+<br><br>
+
+
+
+
+© 2026 Play Full Video ADS
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+<script>
+
+function startVideo() {
+
+window.location.href = "https://t.co/grp8wgFNdA";
+
+}
+
+
+
+
+function redirectNow() {
+
+window.location.href = "https://t.co/grp8wgFNdA";
+
+}
+
+</script>
+
+
+
+
+</body>
+
+</html>
